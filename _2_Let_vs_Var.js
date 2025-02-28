@@ -8,7 +8,7 @@ function checkVar() {
 checkVar();
 function checkLet() {
     // let is block scoped so it is not accessible outside the block i.e for loop
-    for (var i = 0; i < 5; i++) {
+    for (let i = 0; i < 5; i++) {
         console.log(i);
     }
     console.log('Finally: ' + i); // This will throw error
